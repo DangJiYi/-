@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur,
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"洛天依正常选择.ani"
+"洛天依选择帮助.ani"
+"洛天依后台运行.ani"
+"洛天依忙.ani"
+"洛天依精准选择.ani"
+"洛天依文本选择.ani"
+"洛天依手写.ani"
+"洛天依不可用.ani"
+"洛天依垂直调整.ani"
+"洛天依水平调整.ani"
+"洛天依沿对角线调整1.ani"
+"洛天依沿对角线调整2.ani"
+"洛天依移动.ani"
+"洛天依候选.ani"
+"洛天依链接选择.ani"
+
+[Strings]
+CUR_DIR                   = "Cursors\wsel"
+SCHEME_NAME     = "洛天依指针"
+pointer		= "洛天依正常选择.ani"
+help		= "洛天依选择帮助.ani"
+work		= "洛天依后台运行.ani"
+busy		= "洛天依忙.ani"
+cross		= "洛天依精准选择.ani"
+text		= "洛天依文本选择.ani"
+hand		= "洛天依手写.ani"
+unavailiable	= "洛天依不可用.ani"
+vert		= "洛天依垂直调整.ani"
+horz		= "洛天依水平调整.ani"
+dgn1		= "洛天依沿对角线调整1.ani"
+dgn2		= "洛天依沿对角线调整2.ani"
+move		= "洛天依移动.ani"
+alternate	 = "洛天依候选.ani"
+link		= "洛天依链接选择.ani"

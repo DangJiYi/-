@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"App1.ani"
+"A1.ani"
+"C1.cur"
+"H1.ani"
+"Ha2.cur"
+"He2.ani"
+"IB2.ani"
+"No2.cur"
+"SizeAll1.cur"
+"SizeNESW1.cur"
+"SizeNS1.cur"
+"SizeNWSE2.cur"
+"SizeWE1.cur"
+"UpArrow1.ani"
+"Wait1.ani"
+
+[Strings]
+CUR_DIR         = "Cursors\Miku【动态】"
+SCHEME_NAME     = "初音未来鼠标【动态】"
+SCHEME_DESCRIPTION = "初音鼠标 by 微腾【部分改】"
+pointer		= "A1.ani"
+help		= "He2.ani"
+work		= "App1.ani"
+busy		= "Wait1.ani"
+cross		= "C1.cur"
+text		= "IB2.ani"
+hand		= "Ha2.cur"
+unavailiable	= "No2.cur"
+vert		= "SizeNS1.cur"
+horz		= "SizeWE1.cur"
+dgn1		= "SizeNWSE2.cur"
+dgn2		= "SizeNESW1.cur"
+move		= "SizeAll1.cur"
+alternate	= "UpArrow1.ani"
+link		= "H1.ani"
